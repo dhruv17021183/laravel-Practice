@@ -57,11 +57,8 @@ Route::get('/', function () {
 // Route::get('edit/{id}',[PostsController::class,'edit']);
 // Route::get('edit',[PostsController::class,'update']);
 
-Route::get('post',[PostsController::class,'dboperation']);
-
-
-
-
+// Route::get('post',[PostsController::class,'dboperation']);
+Route::get('post',[PostsController::class,'index']);
 
 
 
